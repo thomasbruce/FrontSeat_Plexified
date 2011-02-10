@@ -207,7 +207,7 @@
 					<posy>0</posy>
 					<posx>0</posx>
 					<width>510</width>
-					<height>5</height>
+					<height>3</height>
 				</control>
 			<control type="grouplist">
 						<height>53</height> <!-- 333 -->
@@ -217,7 +217,7 @@
 						<control type="image">
 							<description>Studio</description>
 							<width min="1" max="300">auto</width>
-							<height>50</height>
+							<height>40</height>
 							<aspectratio>keep</aspectratio>
 							<texture>$INFO[ListItem.Property(mediaTag::Studio)]</texture>
 							<visible>Skin.HasSetting(Studio)</visible>
@@ -414,9 +414,15 @@
 					<colordiffuse>WhiteTrans</colordiffuse>
 				</control>
 				<control type="image">
+					<posy>0</posy>
+					<posx>0</posx>
+					<width>510</width>
+					<height>3</height>
+				</control>
+				<control type="image">
 							<description>Studio</description>
 							<width min="1" max="300">auto</width>
-							<height>50</height>
+							<height>40</height>
 							<aspectratio>keep</aspectratio>
 							<texture>$INFO[ListItem.Property(mediaTag::Studio)]</texture>
 							<visible>Skin.HasSetting(Studio)</visible>
