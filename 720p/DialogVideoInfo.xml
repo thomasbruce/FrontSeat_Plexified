@@ -399,7 +399,7 @@
 						<control type="image">
 							<description>Studio</description>
 							<width min="1" max="600">auto</width>
-							<height>70</height>
+							<height>50</height>
 							<aspectratio>keep</aspectratio>
 							<texture>$INFO[ListItem.Property(mediaTag::Studio)]</texture>
 							<visible>Skin.HasSetting(StudioMovieInfo)</visible>
@@ -407,7 +407,7 @@
 						<control type="image">
 							<description>Video Res</description>
 							<width min="1" max="95">auto</width>
-							<height>33</height>
+							<height>23</height>
 							<aspectratio>keep</aspectratio>
 							<texture>$INFO[ListItem.Property(mediaTag::videoResolution)]</texture>
 							<visible>Skin.HasSetting(ResolutionMovieInfo)</visible>
@@ -415,7 +415,7 @@
 						<control type="image">
 							<description>Video Codec</description>
 							<width min="1" max="95">auto</width>
-							<height>33</height>
+							<height>23</height>
 							<aspectratio>keep</aspectratio>
 							<texture>$INFO[ListItem.Property(mediaTag::videoCodec)]</texture>
 							<visible>Skin.HasSetting(ResolutionMovieInfo)</visible>
@@ -423,7 +423,7 @@
 						<control type="image">
 							<description>Audio Codec</description>
 							<width min="1" max="95">auto</width>
-							<height>33</height>
+							<height>23</height>
 							<aspectratio>keep</aspectratio>
 							<texture>$INFO[ListItem.Property(mediaTag::audioCodec)]</texture>
 							<visible>Skin.HasSetting(ResolutionMovieInfo)</visible>
@@ -431,7 +431,7 @@
 						<control type="image">
 							<description>Audio Channels</description>
 							<width min="1" max="95">auto</width>
-							<height>33</height>
+							<height>23</height>
 							<aspectratio>keep</aspectratio>
 							<texture>$INFO[ListItem.Property(mediaTag::audioChannels)]</texture>
 							<visible>Skin.HasSetting(ResolutionMovieInfo)</visible>
