@@ -3,6 +3,7 @@
 	
 	
 <include name="Background">
+<control type="group">
 <control type="image">
 <width>1280</width>
 <height>720</height>
@@ -11,6 +12,17 @@
 <aspectratio>scale</aspectratio>
 <texture>background.png</texture>
 </control>
+<control type="largeimage">
+				<width>1280</width>
+				<height>720</height>
+				<colordiffuse>FF181c1f</colordiffuse>
+				<texture background="true">$INFO[listitem.property(fanart_image)]</texture>
+				<aspectratio>scale</aspectratio>
+				<fadetime>500</fadetime>
+				<animation effect="fade" start="0" end="90" time="500">Visible</animation>
+				<visible>Skin.HasSetting(Fanart) + !IsEmpty(listitem.property(fanart_image))</visible>
+			</control>
+			</control>
 </include>
 	
 	
