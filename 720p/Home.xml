@@ -453,6 +453,23 @@
             <visible>Skin.HasSetting(Time)</visible>
 		</control>    
         <!-- End Clock Widget -->
+        
+        <!-- RSS Widget-->
+		<control type="rss">
+				<description>RSS feed</description>
+				<posx>0</posx>
+				<posy>225</posy>
+				<height>25</height>
+				<width>1280</width>
+				<font>Small</font>
+				<urlset>1</urlset>
+				<textcolor>ff969696</textcolor>
+				<titlecolor>ff969696</titlecolor>
+				<headlinecolor>ff969696</headlinecolor>
+				<visible>system.getbool(lookandfeel.enablerssfeeds) + Skin.HasSetting(RSS)</visible>
+			</control>
+		<!-- End RSS Widget -->
+
 		
 	</controls>
 </window>
