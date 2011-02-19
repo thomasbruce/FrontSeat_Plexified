@@ -275,7 +275,7 @@
 					</item>
 					<item id="10">
 						<description>Custom Settings</description>
-						<label>Custom</label>
+						<label>Customize</label>
 						<onclick>activatewindow(56)</onclick>
 					</item>
 				</content>
