@@ -5,5 +5,5 @@
 	<color name="WhiteTrans">97FFFFFF</color>
     <color name="Gray">22FFFFFF</color>
 	<color name="Red">FFFF0000</color>
-	<color name="ThemeColor">ff929292</color>
+	<color name="ThemeColor">FFFFFFFF</color>
 </colors>

@@ -390,7 +390,7 @@
 				<posy>-10</posy>
 				<width>220</width>
 				<align>right</align>
-				<textcolor>ff969696</textcolor>
+				<textcolor>ThemeColor</textcolor>
 				<font>Small</font>
 				<label>$INFO[Weather.Conditions]</label>
 			</control>
@@ -400,7 +400,7 @@
 				<posy>16</posy>
 				<width>220</width>
 				<align>right</align>
-				<textcolor>ff969696</textcolor>
+				<textcolor>ThemeColor</textcolor>
 				<font>Small</font>
 				<label>$INFO[Weather.Temperature]</label>
 			</control>
@@ -422,7 +422,7 @@
 			<posx>40</posx>
 			<posy>9</posy>
             <control type="label" id="1">
-                <textcolor>ff969696</textcolor>
+                <textcolor>ThemeColor</textcolor>
                 <info>System.Time(short)</info>
                 <height>40</height>
                 <font>Small</font>
@@ -441,7 +441,7 @@
 			<posx>615</posx>
 			<posy>190</posy>
             <control type="label" id="1">
-            <textcolor>ff969696</textcolor>
+            <textcolor>ThemeColor</textcolor>
                 <info>System.Time(short)</info>
                 <height>40</height>
                 <font>Small</font>
@@ -463,9 +463,9 @@
 				<width>1280</width>
 				<font>Small</font>
 				<urlset>1</urlset>
-				<textcolor>ff969696</textcolor>
-				<titlecolor>ff969696</titlecolor>
-				<headlinecolor>ff969696</headlinecolor>
+				<textcolor>ThemeColor</textcolor>
+				<titlecolor>ThemeColor</titlecolor>
+				<headlinecolor>ThemeColor</headlinecolor>
 				<visible>system.getbool(lookandfeel.enablerssfeeds) + Skin.HasSetting(RSS)</visible>
 			</control>
 		<!-- End RSS Widget -->
