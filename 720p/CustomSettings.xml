@@ -41,7 +41,7 @@
 				<selected>Skin.HasSetting(PosterTVShows)</selected>
 			</control>
 			<control type="radiobutton" id="2023">
-				<label>Show Fanart</label>
+				<label>Show Fanart as background</label>
 				<onclick>Skin.ToggleSetting(Fanart)</onclick>
 				<selected>Skin.HasSetting(Fanart)</selected>
 			</control>
